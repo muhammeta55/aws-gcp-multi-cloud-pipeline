@@ -1,0 +1,27 @@
+# Credentials and Secrets (CRITICAL)
+*.pem
+.env
+aws_config
+credentials
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+env/
+venv/
+
+# Databricks / Spark
+*.checkpoint
+.databricks/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# BigQuery / GCP
+.gcloud/
+
+echo "data/Amazon Sale Report.csv" >> .gitignore
