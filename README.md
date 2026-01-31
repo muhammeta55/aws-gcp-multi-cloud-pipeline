@@ -30,7 +30,8 @@ This project demonstrates a production-grade **Multi-Cloud Data Engineering** wo
 ### 1. The Medallion Pipeline (Databricks)
 I used PySpark to transform raw CSV data into optimized, columnar Parquet files. This ensures high-performance querying and reduced storage costs.
 
-**[image/Databricks Queries.png]**
+**[images/Databricks%20Queries.png]**
+![Databricks Queries](images/Databricks%20Queries.png)
 ![Dashboard Preview](images/Databricks Queries.png)
 *Caption: PySpark ETL logic in Databricks transforming raw data into the Gold business layer.*
 
