@@ -30,19 +30,19 @@ This project demonstrates a production-grade **Multi-Cloud Data Engineering** wo
 ### 1. The Medallion Pipeline (Databricks)
 I used PySpark to transform raw CSV data into optimized, columnar Parquet files. This ensures high-performance querying and reduced storage costs.
 
-**[/image/Databricks Queries.png]**
+**[image/Databricks Queries.png]**
 *Caption: PySpark ETL logic in Databricks transforming raw data into the Gold business layer.*
 
 ### 2. Real-Time Notifications (AWS SNS)
 To ensure immediate data awareness, I configured an SNS topic that sends an email notification the moment a new dataset is uploaded to the S3 bucket.
 
-**[/images/AWS SNS.png]**
+**[images/AWS SNS.png]**
 *Caption: Automated email notification received via AWS SNS.*
 
 ### 3. BigQuery Omni Analytics (GCP)
 The most innovative part of the project: I enabled the BigQuery Omni engine to "reach over" to AWS. By setting the BigQuery dataset location to `aws-us-east-1`, I performed SQL analytics on AWS data without moving a single byte to GCP.
 
-**[/images/BigQuery result.png]**
+**[images/BigQuery result.png]**
 *Caption: SQL query results in BigQuery showing live data being pulled from AWS S3.*
 
 ### And much more screenschots in images folder.
