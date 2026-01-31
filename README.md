@@ -61,7 +61,7 @@ SELECT
 FROM `my-omni-project.amazon_sales_data.amazon_sales_gold`
 GROUP BY 1
 ORDER BY Total_Revenue DESC;
-
+```
 ---
 
 ## 🏁 Conclusion
