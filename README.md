@@ -31,7 +31,7 @@ This project demonstrates a production-grade **Multi-Cloud Data Engineering** wo
 I used PySpark to transform raw CSV data into optimized, columnar Parquet files. This ensures high-performance querying and reduced storage costs.
 
 **[image/Databricks Queries.png]**
-![Dashboard Preview](image/Databricks Queries.png)
+![Dashboard Preview](images/Databricks Queries.png)
 *Caption: PySpark ETL logic in Databricks transforming raw data into the Gold business layer.*
 
 ### 2. Real-Time Notifications (AWS SNS)
